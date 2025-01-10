@@ -1,5 +1,8 @@
 """
-This script calculates the areas of circles given their radii, performs some basic mathematical operations on the results, and visualizes them using a bar chart. Additional array manipulations and filtering are also demonstrated.
+This script calculates the areas of circles given their radii, performs some basic 
+mathematical operations on the results, and visualizes them using a bar chart. 
+Additionally, the script includes examples of array manipulations, element-wise 
+operations, and filtering based on specific conditions.
 """
 
 import math
