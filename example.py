@@ -1,8 +1,21 @@
+"""
+This script calculates the areas of circles given their radii, performs some basic mathematical operations on the results, and visualizes them using a bar chart. Additional array manipulations and filtering are also demonstrated.
+"""
+
 import math
 import matplotlib.pyplot as plt
 
 # Define a function to calculate the area of a circle
 def calculate_circle_area(radius):
+    """
+    Calculate the area of a circle given its radius.
+
+    Parameters:
+        radius (float): The radius of the circle.
+
+    Returns:
+        float: The area of the circle.
+    """
     return math.pi * radius**2
 
 # Create a list of radii
@@ -45,6 +58,6 @@ print("Maximum area:", max_area)
 print("Minimum area:", min_area)
 
 # Filter areas greater than a threshold
-threshold = 30
-large_areas = [area for area in areas if area > threshold]
-print(f"Areas greater than {threshold}:", large_areas)
+THRESHOLD = 30
+large_areas = [area for area in areas if area > THRESHOLD]
+print(f"Areas greater than {THRESHOLD}:", large_areas)
