@@ -32,4 +32,6 @@ print(f"Total revenue: {TOTAL_REVENUE}")
 print(f"Profit: {PROFIT}")
 print(f"Adjusted profit with margin: {ADJUSTED_PROFIT}")
 print(f"Is the business making a profit? {IS_PROFIT}")
-print(f"Is the selling price in the range 6000-8000? {IS_PRICE_IN_RANGE}")
+print(
+    f"Is the selling price in the range 6000-8000? {IS_PRICE_IN_RANGE}"
+)
