@@ -1,6 +1,6 @@
 """
-This script calculates the total cost, revenue, and profit for a product.
-It also checks if the business is making a profit and if the selling price falls within a specific range.
+This script calculates the total cost, revenue, and profit for a product. It also checks 
+if the business is making a profit and whether the selling price falls within a specific range.
 """
 
 # Initial setup
